@@ -1,13 +1,11 @@
-import React from 'react';
+import './Header.scss';
 
-class Header extends React.Component {
-  render() {
-    return (
-      <header>
+function Header() {
+  return (
+    <header>
         <h1>RESTy</h1>
-      </header>
-    );
-  }
+    </header>
+  )
 }
 
 export default Header;
