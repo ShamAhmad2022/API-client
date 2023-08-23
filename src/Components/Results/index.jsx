@@ -1,8 +1,13 @@
-function Results({data}) {
+
+function Results({data, loading}) {
+
   return (
     <section>
+      <h3>Results: </h3>
       <pre>
-        {data ? JSON.stringify(data, undefined, 2) : null}
+        {
+          loading===false ? (<div>loading...</div>) : data ? JSON.stringify(data, undefined, 2) : null
+        }
       </pre>
     </section>
   );
