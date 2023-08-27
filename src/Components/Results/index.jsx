@@ -1,4 +1,3 @@
-
 function Results({data, loading}) {
 
   return (
