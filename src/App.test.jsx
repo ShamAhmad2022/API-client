@@ -13,4 +13,12 @@ expect(wrapper).toBeTruthy()
 const h1 = wrapper.container.querySelector('h1')
 expect(h1 ?.textContent).toBe('RESTy')
 });
+
+test('render', () => {
+let wrapper = render (<App/>)
+expect(wrapper).toBeTruthy()
+
+const h1 = wrapper.container.querySelector('h1')
+expect(h1 ?.textContent).toBe('RESTy')
+});
 })
