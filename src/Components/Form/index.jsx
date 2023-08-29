@@ -44,7 +44,7 @@ function Form({ handleApiCall, setLoading}) {
             <option value="put">PUT</option>
             <option value="delete">DELETE</option>
           </select>
-          <input name="url" type="text" style={{ width: '300px'}}/>
+          <input name="url" type="text" style={{ width: '280px'}}/>
           <button type="submit">GO!</button>
         </label>
 
