@@ -3,7 +3,7 @@ import './Header.scss';
 function Header() {
   return (
     <header>
-        <h1>RESTy</h1>
+        <h1>API Client</h1>
     </header>
   )
 }
